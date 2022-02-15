@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="logoTab.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to Tic Tac Toe game !</h1>
+    <div class="choose_button">
+      <div class="Player_namex">Player1 -❌</div>
+      <button class="start">START</button>
+      <div class="Player_name0">Player2 - 0</div>
+    </div>
+
+    <div class="container">
+      <h3 class="player">Player 1 turn</h3>
+      <div class="game">
+        <div class="line_container">
+          <div class="btnLine">
+            <button class="btn_left btn_top btn2" id="input_btn1"></button>
+            <button class="btn_top btn2 middle_btn" id="input_btn2"></button>
+            <button class="btn_top btn_right btn2" id="input_btn3"></button>
+          </div>
+        </div>
+        <div class="line_container">
+          <div class="btnLine">
+            <button class="btn_left btn2 btn456" id="input_btn4"></button>
+            <button class="btn2 middle_btn btn456" id="input_btn5"></button>
+            <button class="btn_right btn2 btn456" id="input_btn6"></button>
+          </div>
+        </div>
+        <div class="line_container">
+          <div class="btnLine">
+            <button class="btn_left btn_bottom btn2" id="input_btn7"></button>
+            <button class="btn_bottom btn2 middle_btn" id="input_btn8"></button>
+            <button class="btn_right btn_bottom btn2" id="input_btn9"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="retry_container">
+      <button class="retry">RETRY &#8634;</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
